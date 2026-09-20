@@ -1,0 +1,17 @@
+# Секреты и окружение - не добавлять в Git
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env_venv/
+
+# Системное
+.DS_Store
+Thumbs.db
+*.log
